@@ -10,7 +10,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
       rel="stylesheet"
     />
-    <!-- the title of the page -->
     <title>Wiki Characters.</title>
   </head>
   <body>
@@ -30,17 +29,23 @@
     </header>
     <main>
       <div class="container">
-        <a href="charectars/Abdulhamid/index-abdullhamid.html" target="_blank">Abdulhamid</a>
-        <div class="test"></div>
-        <a href="charectars/Fyodor Dostoevsky/index-Fyodor Dostoevsky.html" target="_blank">Fyodor Dostoevsky</a>
-        <!-- The title -->
-        <!-- the img source -->
-        <!-- informayion about the character --> 
+        <div class="card">
+          <!-- <img src="/charectars/Abdulhamid/image/abdullhamid.jpg" alt=""> -->
+          <div class="content">
+            <!-- <div class="image">
+              <img src="/charectars/Abdulhamid/image/abdullhamid.jpg" alt="Abdullhamid II.">
+            </div> -->
+            <h3>Card One</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo ipsum provident tempore nemo ex, molestias accusantium recusandae laboriosam quisquam unde tenetur, quaerat dolores, dolorum repellendus atque adipisci ducimus sapiente doloribus.
+              Odit, aut dolore unde deserunt dolorum blanditiis sit voluptatem iure at enim commodi! Ratione, hic fuga! Est nemo porro laudantium deleniti sequi delectus dolor dolorem, veniam ea consequuntur? Eum, qui?
+            </p>
+            <a href="#">Read More.</a>
           </div>
+        </div>
         </div>
       </div>
     </main>
-
     <footer class="footer">
       <h2><span>Wiki</span> Character.</h2>
       <h4>
@@ -50,5 +55,12 @@
       <i id="gg" class="fab fa-instagram"></i>
       <i id="gg" class="fab fa-twitter-square"></i>
     </footer>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelector(".card"), {
+		max: 25,
+		speed: 400
+	});
+    </script>
   </body>
 </html>
